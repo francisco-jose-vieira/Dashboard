@@ -1,16 +1,14 @@
-import './Globals.css'
-import { Button } from './components/ui/button'
+import "./Globals.css";
+
+import { Sidebar } from "../src/components/sidebar";
 
 function App() {
-
   return (
     <>
-      <h1 className='text-2xl'>Projeto Dashboard</h1>
-      <Button>
-        Teste Button
-      </Button>
+      <Sidebar />
+      <h1 className="text-2xl">Projeto Dashboard</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
